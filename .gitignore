@@ -1,0 +1,74 @@
+# Kotlin / Gradle: caches and generated output (including nested modules)
+.gradle/
+.kotlin/
+build/
+out/
+bin/
+local.properties
+*.class
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Bend: project-local compiler/JDK and native build artifacts.
+# Generated C and executables belong in build/; keep hand-written C sources.
+.tools/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.gpu
+*.dSYM/
+
+# Archives: keep the Gradle wrapper so a fresh clone can build.
+*.jar
+*.war
+*.zip
+*.tar.gz
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE / editor local state
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# Local environment files and logs
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.log
+
+# macOS / Finder / AppleDouble / external volume metadata
+.DS_Store
+.AppleDouble/
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.DocumentRevisions-V100/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+.AppleDB/
+.AppleDesktop/
+Network Trash Folder/
+Temporary Items/
+
+# Windows Explorer metadata
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/

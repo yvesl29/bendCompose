@@ -1,0 +1,5 @@
+# Consistent source line endings across Linux, macOS and Windows.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jar binary
